@@ -1,0 +1,61 @@
+/* 
+    colors
+
+    primary => #131c29
+    secondary => #ff8901
+    link color => #596573
+    top gradient => #33597e
+    bottom gradient => #0f1721
+    footer => #0b1016
+    btn-color => #213349
+    date1 => #be8442
+    date2 => #be6142
+    date3 => #bd425f
+
+    font 
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+    --prim: #131c29;
+    --sec: #ff8901;
+    --btnColor: #213349;
+    --footerColor: #0b1016;
+    --primFont: 'Oswald', sans-serif;
+    --secFont: 'Roboto', sans-serif;
+}
+
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;;
+}
+
+.top-section {
+    background-color: var(--prim);
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: var(--sec);
+}
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
